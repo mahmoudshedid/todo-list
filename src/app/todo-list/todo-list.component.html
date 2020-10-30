@@ -1,0 +1,10 @@
+<div>
+    <div *ngFor="let item of todoList" class="list">
+        <div>{{item.title}}</div>
+        <div *ngIf="item.status" class="title">Completed</div>
+        <div *ngIf="!item.status">Not Completed</div>
+    </div>
+</div>
+
+<input type="text" #newTodo />
+<button type="button" (click)="addNewTodo()">Add</button>
