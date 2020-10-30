@@ -11,7 +11,7 @@ Make sure you have NodeJs and Angular CLI. if you don't have please check the fo
 Make clone from this project.
 
 ```bash
-git clone https://github.com/mahmoudshedid/bank-transactions.git
+git clone https://github.com/mahmoudshedid/todo-list
 ```
 
 Run `npm install` to install all dependencies.
